@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+.navbar {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    background-color: rgb(37, 35, 35);
+    z-index: 5;
+    position: fixed; 
+    justify-content: space-between;
+    align-items: center;
+}
+.item{
+    margin: 30px;
+    align-items: center;
+    display: flex;
+    font-size: large;
+    /* justify-content: space-around; */
+    
+}
+.navbar a{
+    margin-left: 50px;
+}
+ a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+.homepage{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url(https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped);
+    background-position: center 65%;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 0;
+}
+.homepage .content{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+
+}
+.homepage .content .text{
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-style: poppins;
+    text-shadow:  0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.text h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.content a{
+    font-size: 20px;
+    color: black;
+}
+.content span{
+    background-color: #fff;
+    height: 50px;
+    padding: 15px ;
+    border-radius: 10px;
+}
+.service{
+    width: 100vw;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(204, 194, 204, 0.333);
+}
+ h1{
+    font-size: 40px;
+    margin: 10px;
+}
+ p{
+    font-size: 20px;
+    margin: 10px;
+}
+.main{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px 30px;
+    margin-top: 30px;
+}
+.box{
+    width: 25vw;
+    height: 45vh;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: auto opx;
+    /* border: 2px solid red; */
+}
+.box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+.box h2{
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+.box p{
+    display: block;
+    padding: 20px;
+    font-style:"Poppins" ;
+    color: #635f5f;
+    font-size: 18px;
+}
+.about{
+    width: 100vw;
+    height: 130vh;
+    background-color: rgba(204, 194, 204, 0.333); 
+}
+.about_des{
+    width: 80vw;
+    height: 20vh;
+    margin-top: 40px;
+}
+.about_des h1{
+    font-size: 25px;
+}
+.about_des p ,li{
+    font-size: 18px;
+    font-style: "poppins";
+}
+.contact{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(204, 194, 204, 0.333);;
+}
+.last{
+    height: 60vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 50px;
+    justify-content: space-between;
+}
+.left_detail{
+    width: 40%;
+    height: 80%;
+}
+.right_details{
+    width: 50%;
+    height: 80%;
+   
+}
+
+input{
+    height: 43px;
+    width: 490px;
+    margin: 10px;
+}
+i{
+    height: 40px;
+    width: 80px;
+}
+
+textarea{
+    margin:10px ;
+}
+button{
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(71, 69, 69);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+
